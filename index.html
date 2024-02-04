@@ -1,19 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 <body>
-
-<div class="card">
-    <img src="https://placekitten.com/300/200" alt="Cute Animal">
-    <div class="content">
-        <h2>Cute Animal</h2>
-        <p>This is a description of the cute animal. It's adorable and loves to play around.</p>
-        <a href="#" class="button">Learn More</a>
-    </div>
-</div>
-
+	<div class="container">
+		<input type="checkbox" id="swicth-rain">
+		<div class="rain">
+			<!-- Rain animation -->
+		</div>
+		<h1 class="title">Animal Cards</h1>
+		<div class="options">
+			<label for="swicth-rain" class="options-btn">Rain</label>
+			<label for="swicth-order" class="options-btn">Sort</label>
+			<label for="swicth-mode" class="options-btn">Light</label>
+		</div>
+		<div class="row">
+			<!-- Filters for diet, lifespan, and habitat -->
+			<div class="filter">
+				<h3>Diet</h3>
+				<label for="herbivore">Herbivore</label>
+				<input type="checkbox" id="herbivore">
+				<label for="carnivore">Carnivore</label>
+				<input type="checkbox" id="carnivore">
+				<label for="omnivore">Omnivore</label>
+				<input type="checkbox" id="omnivore">
+			</div>
+			<div class="filter">
+				<h3>Lifespan</h3>
+				<label for="short">Short</label>
+				<input type="checkbox" id="short">
+				<label for="medium">Medium</label>
+				<input type="checkbox" id="medium">
+				<label for="long">Long</label>
+				<input type="checkbox" id="long">
+			</div>
+			<div class="filter">
+				<h3>Habitat</h3>
+				<label for="forest">Forest</label>
+				<input type="checkbox" id="forest">
+				<label for="grassland">Grassland</label>
+				<input type="checkbox" id="grassland">
+				<label for="aquatic">Aquatic</label>
+				<input type="checkbox" id="aquatic">
+			</div>
+			<!-- Animal cards -->
+			<div class="card" id="card01">
+				<!-- Card content -->
+			</div>
+			<!-- More animal cards -->
+		</div>
+	</div>
 </body>
-</html>
